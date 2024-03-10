@@ -1,2 +1,2 @@
 # ICSE25_github
-The algorithm for submission ICSE 2025
+The repository for submission ICSE 2025
