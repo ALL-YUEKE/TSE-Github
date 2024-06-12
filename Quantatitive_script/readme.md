@@ -8,9 +8,9 @@ commit_repo.py: This script retrieves all commits from the targeted repositories
 
 Both the "repo_commit" and "contributor" directories serve as the basis for further analysis.
 
-pipeline: This shell script includes processes for Crosscheck to identify users with multiple email commits. It takes the commits from the targeted repositories and the commits made by these contributors as inputs. The pipeline script consists of 8 Python scripts which analyze the original files and generate processed commit files during the Crosscheck process:
-checkleak.py
-leak_history.py
+pipeline: This shell script includes processes for Crosscheck to identify users with multiple email commits. It takes the commits from the targeted repositories and the commits made by these contributors as inputs. The pipeline script consists of 8 Python scripts which analyze the original files and generate processed commit files during the Crosscheck process:..
+1. checkleak.py ..
+2. leak_history.py ..
 filtersus1.py
 get_contrirepo.py
 get_concommit.py
