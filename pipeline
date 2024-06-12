@@ -1,0 +1,12 @@
+#!/bin/bash
+
+PROJECT=$1
+python checkleak.py   --keyword=$PROJECT
+python leak_history.py  --keyword=$PROJECT
+python filtersus1.py  --keyword=$PROJECT
+python get_contrirepo.py --keyword=$PROJECT
+python get_concommit.py --keyword=$PROJECT
+python filterverify.py  --keyword=$PROJECT
+python filteruser.py --keyword=$PROJECT
+python filtersus2.py --keyword=$PROJECT
+
