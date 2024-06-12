@@ -9,7 +9,7 @@ Here is the script setup we use for the quantitative analysis in our GitHub Impe
 3. **commit_repo.py**: This script retrieves all commits from the targeted repositories.  
    The output is stored in the "repo_commit" directory within Quantitative_data.
 
-Both the "repo_commit" and "contributor" directories serve as the basis for further analysis.
+Both the "repo_commit" and "contributor" directories serve as the basis for further analysis. 
 
 4. **pipeline**: This shell script includes processes for Crosscheck to identify users with multiple email commits.  
    It takes the commits from the targeted repositories and the commits made by these contributors as inputs. The pipeline script consists of 8 Python scripts which analyze the original files and generate processed commit files during the Crosscheck process:
@@ -22,7 +22,7 @@ Both the "repo_commit" and "contributor" directories serve as the basis for furt
    - filteruser.py
    - filtersus2.py
 
-The result from the pipeline identifies users involved in multi-email commits, a tactic similar to impersonation.
+The result from the pipeline identifies users involved in multi-email commits, a tactic similar to impersonation. The result is also released in Quantatitive_data as cross_check_result.
 
 5. **user_ratio.py**: This script calculates the ratio of users involved in multi-email commits compared to the overall number of collected users.
 
