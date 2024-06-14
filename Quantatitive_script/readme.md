@@ -4,12 +4,12 @@ Here is the script setup we use for the quantitative analysis in our GitHub Impe
    The output is the targeted repositories for this study.
 
 2. **contributor_event.py**: This script gathers all commits made by contributors from the targeted repositories.  
-   The output is stored in the "contributor" directory within Quantitative_data.
+   The output is stored in the "contributor_commit" directory within Quantatitive_data.
 
 3. **commit_repo.py**: This script retrieves all commits from the targeted repositories.  
-   The output is stored in the "repo_commit" directory within Quantitative_data.
+   The output is stored in the "repository_commit" directory within Quantatitive_data.
 
-Both the "repo_commit" and "contributor" directories serve as the basis for further analysis. 
+Both the "repository_commit" and "contributor_commit" directories serve as the basis for further analysis. 
 
 4. **pipeline**: This shell script includes processes for Crosscheck to identify users with multiple email commits.  
    It takes the commits from the targeted repositories and the commits made by these contributors as inputs. The pipeline script consists of 8 Python scripts which analyze the original files and generate processed commit files during the Crosscheck process:
