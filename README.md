@@ -1,5 +1,5 @@
-# ICSE25_github
-The repository for submission ICSE 2025 
+# TSE "Understanding GitHub Impersonation and Exploring Automated Authorship Attribution"
+The repository for submission to TSE 
 
 ### For the Quantitative Analysis Section:
 - **Quantitative_script**:  
