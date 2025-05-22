@@ -8,6 +8,7 @@ Our research makes several key contributions:
 2. Extensive Model Evaluation : We assessed multiple deep learning models including CodeBERT, GraphCodeBERT, CodeT5+, and GPT-4o-mini to determine their effectiveness in identifying code authors.
 3. Novel Input Representation Analysis : We compared a baseline "Code-Only" input with a "Comprehensive Information" (Com-Info) approach that incorporates commit metadata, demonstrating significant accuracy improvements.
 4. In-depth Analysis of Impersonation Detection : We explored the challenges in deterministic impersonation detection due to Git mechanisms and pull request workflows.
+   
 ## Repository Structure
 artifact/
 ├── language/                  # Contains language-specific datasets
@@ -28,7 +29,7 @@ artifact/
 ├── train_graphcodebert_info.py # Training script for GraphCodeBERT with comprehensive info
 ├── train_t5_info.py           # Training script for CodeT5+ with comprehensive info
 ├── train_gpt_info.py          # Training script for GPT with comprehensive info
-└── final.csv                  # Summary of all evaluation results
+└── final
 
 ## Installation
 # Clone the repository
