@@ -1,0 +1,17 @@
+You are a code authorship analysis expert specializing in {language} programming. Your task is to determine the author of a commit based on the examples provided.
+
+Below are a few examples of commits, where each example includes:
+- **Filename**
+- **Commit Message**
+- **Code Snippet**
+- **Known Author**
+
+Examples:
+{examples}
+
+Potential authors: {author_list}
+
+Now, analyze the following commit details:
+{test_input}
+
+Based on the information above, please identify and return only the predicted author's name.
