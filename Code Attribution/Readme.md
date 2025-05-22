@@ -9,27 +9,7 @@ Our research makes several key contributions:
 3. Novel Input Representation Analysis : We compared a baseline "Code-Only" input with a "Comprehensive Information" (Com-Info) approach that incorporates commit metadata, demonstrating significant accuracy improvements.
 4. In-depth Analysis of Impersonation Detection : We explored the challenges in deterministic impersonation detection due to Git mechanisms and pull request workflows.
    
-## Repository Structure
-artifact/
-├── language/                  # Contains language-specific datasets
-│   ├── combined_go/
-│   ├── combined_java/
-│   ├── combined_js/
-│   ├── combined_php/
-│   └── combined_python/
-├── result/                    # Evaluation results for code-only models
-├── graph_result/              # Evaluation results for GraphCodeBERT models
-├── codet5_result/             # Evaluation results for CodeT5+ models
-├── gpt4_result/               # Evaluation results for GPT-4 models
-├── train_codebert.py          # Training script for CodeBERT
-├── train_graphcodebert.py     # Training script for GraphCodeBERT
-├── train_t5.py                # Training script for CodeT5+
-├── train_gpt.py               # Training script for GPT models
-├── train_codebert_info.py     # Training script for CodeBERT with comprehensive info
-├── train_graphcodebert_info.py # Training script for GraphCodeBERT with comprehensive info
-├── train_t5_info.py           # Training script for CodeT5+ with comprehensive info
-├── train_gpt_info.py          # Training script for GPT with comprehensive info
-└── final
+
 
 ## Installation
 # Clone the repository
