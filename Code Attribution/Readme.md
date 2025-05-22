@@ -21,24 +21,24 @@ pip install torch transformers pandas numpy scikit-learn tqdm openai
 
 ## Usage
 ### Training Models Basic Models (Code-Only)
-# Train CodeBERT model
+### Train CodeBERT model
 python train_codebert.py --lang python
 
-# Train GraphCodeBERT model
+### Train GraphCodeBERT model
 python train_graphcodebert.py --lang java
 
-# Train CodeT5+ model
+### Train CodeT5+ model
 python train_t5.py --lang javascript
 
-# Train with GPT-4
+### Train with GPT-4
 python train_gpt.py --lang php --model gpt-4
 
 ### Comprehensive Information Models
-# Train CodeBERT with comprehensive information
+### Train CodeBERT with comprehensive information
 python train_codebert_info.py --lang python
 
-# Train GraphCodeBERT with comprehensive information
+### Train GraphCodeBERT with comprehensive information
 python train_graphcodebert_info.py --lang go
 
-# Train CodeT5+ with comprehensive information
+### Train CodeT5+ with comprehensive information
 python train_t5_info.py --lang javascript
